@@ -5,5 +5,5 @@
   "type": "module",
   "license": "Apache-2.0",
   "bin": { "froga-verify": "./froga-verify.mjs" },
-  "engines": { "node": ">=22" }
+  "engines": { "node": ">=24" }
 }
