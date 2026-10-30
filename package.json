@@ -1,0 +1,9 @@
+{
+  "name": "froga-verify",
+  "version": "0.1.0",
+  "description": "Single-file, dependency-free verifier for FROGA proof packets (metric answers with bitemporal definitions, hash-chained ledger, Ed25519 seal, exact replay).",
+  "type": "module",
+  "license": "Apache-2.0",
+  "bin": { "froga-verify": "./froga-verify.mjs" },
+  "engines": { "node": ">=22" }
+}
