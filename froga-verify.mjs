@@ -563,7 +563,7 @@ function parseCsv(text) {
 function parseJsonExact(text) {
   let i = 0;
   const bad = () => { throw new Error("DATA_UNREADABLE"); };
-  const ws = () => { while (" \t\n\r".includes(text[i] ?? "")) i += 1; };
+  const ws = () => { while (i < text.length && " \t\n\r".includes(text[i])) i += 1; };
   function str() {
     let out = "";
     i += 1;
